@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="pirates">Pirates</string>
+    <string name="ninjas">Ninjas</string>
+</resources>

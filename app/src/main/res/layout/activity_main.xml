@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="What type of file is an Android installer package?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/q1_rgrp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/q1_r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".APP"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".APK"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".ABC"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".AZW"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#565656" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="A software program that takes up too much disk space may also be called what?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/q2_rgrp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/q2_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malware"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/q2_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shareware"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/q2_r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bloatware"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/q2_r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middleware"
+            android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#565656" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Which of the following describes the roles of devices in a WAN? (Choose three.)"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_wan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A CSU/DSU terminates a digital local loop." />
+
+            <CheckBox
+                android:id="@+id/checkbox_wan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A modem terminates a digital local loop." />
+
+            <CheckBox
+                android:id="@+id/checkbox_wan3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A CSU/DSU terminates an analog local loop." />
+
+            <CheckBox
+                android:id="@+id/checkbox_wan4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A modem terminates an analog local loop." />
+
+            <CheckBox
+                android:id="@+id/checkbox_wan5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A router is commonly considered a DTE device." />
+
+            <CheckBox
+                android:id="@+id/checkbox_wan6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A router is commonly considered a DCE device." />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#565656" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#565656" />
+
+        <TextView
+            android:id="@+id/score_counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#565656" />
+
+        <Button
+            android:id="@+id/btn_chkResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="chkResultsButton"
+            android:text="Check Results" />
+
+    </LinearLayout>
+
+</ScrollView>
