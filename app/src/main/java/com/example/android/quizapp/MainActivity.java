@@ -3,7 +3,6 @@ package com.example.android.quizapp;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -12,10 +11,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button chkResultsButton;
     CheckBox wan1, wan2, wan3, wan4, wan5, wan6;
     int score, ans1, ans2, ans3;
-
+    private Button chkResultsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
